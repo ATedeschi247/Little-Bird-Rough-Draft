@@ -1,0 +1,13 @@
+nav img {
+  height: inherit;
+}
+a.navbar-brand {
+  padding: 0px;
+}
+#product-buttons > .product {
+  width: 19.4%;
+  display: inline-block;
+}
+img {
+  width: inherit;
+}
