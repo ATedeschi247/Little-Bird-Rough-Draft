@@ -1,6 +1,21 @@
+nav, nav li {
+  background-color: #ff751a !important;
+  font-family: 'Kreon';
+  font-size: 18px;
+}
+nav a {
+  color: #331400 !important;
+}
+nav li {
+  transition: background-color 0.2s;
+}
+nav li:hover {
+  background-color: #fff !important;
+}
 nav img {
   height: inherit;
 }
+/* end of navbar stuff */
 a.navbar-brand {
   padding: 0px;
 }
@@ -14,11 +29,27 @@ img {
   max-height: 100%;
 }
 div#mailing-list {
-  background-color: #f8f8f8;
+  background-color: #fd7d1c;
 }
 h3 {
   margin-top: 0px;
 }
 html {
   scroll-behavior: smooth;
+}
+h1, h2, h3 {
+  font-family: 'Kreon';
+  color: #fc6f03;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 31px;
+}
+.black-color {
+  color: #331400;
+}
+label {
+  font-size: 18px;
 }
