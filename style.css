@@ -1,13 +1,13 @@
 nav, nav li {
   background-color: #ff751a !important;
-  font-family: 'Kreon';
   font-size: 18px;
 }
 nav a {
   color: #331400 !important;
+  font-family: 'Lora';
 }
 nav li {
-  transition: background-color 0.2s;
+  transition: background-color 0.26s;
 }
 nav li:hover {
   background-color: #fff !important;
@@ -44,12 +44,19 @@ h1, h2, h3 {
 h1 {
   font-size: 40px;
 }
+div.page-header > h1 {
+  font-size: 55px !important;
+}
 h2 {
-  font-size: 31px;
+  font-size: 34px;
 }
 .black-color {
   color: #331400;
 }
 label {
+  font-size: 18px;
+}
+p, a {
+  font-family: 'Glegoo';
   font-size: 18px;
 }
