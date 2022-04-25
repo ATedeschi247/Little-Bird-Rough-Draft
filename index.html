@@ -88,19 +88,19 @@
         for the purposes of this draft, there is only one image shown for each object.</p>
         <div id="product-buttons">
           <div class="product text-center">
-            <a href="#plane">Wooden Toy Airplane</a>
+            <button class="btn btn-warning" onclick="showPlane()">Wooden Toy Airplane</button>
           </div>
           <div class="product text-center">
-            <a href="#train">Wooden Toy Train</a>
+            <button class="btn btn-orange" onclick="showTrain()">Wooden Toy Train</button>
           </div>
           <div class="product text-center">
-            <a href="#boat">Wooden Toy Boat</a>
+            <button class="btn btn-orange" onclick="showBoat()">Wooden Toy Boat</button>
           </div>
           <div class="product text-center">
-            <a href="#block">Wooden Block Toy Set</a>
+            <button class="btn btn-orange" onclick="showBlock()">Wooden Block Toy Set</button>
           </div>
           <div class="product text-center">
-            <a href="#car">Wooden Toy Car</a>
+            <button class="btn btn-orange" onclick="showCar()">Wooden Toy Car</button>
           </div>
         </div>
         <br><br>
@@ -153,8 +153,8 @@
               <p>Safe for Young Kids - Comes with a Non-Toxic Finish!</p>
             </div>
           </div>
+          <br><br>
         </div>
-        <br><hr><br>
         <div id="train">
           <div class="row">
             <div class="col-sm-4">
@@ -224,8 +224,8 @@
               <p>Please note that these toys have small parts that could break off if used inappropriately.</p>
             </div>
           </div>
+          <br><br>
         </div>
-        <br><hr><br>
         <div id="boat">
           <div class="row">
             <div class="col-sm-4">
@@ -271,8 +271,8 @@
               <p><b>MATERIAL:</b> Solid White Pine</p>
             </div>
           </div>
+          <br><br>
         </div>
-        <br><hr><br>
         <div id="block">
           <div class="row">
             <div class="col-sm-4">
@@ -333,8 +333,8 @@
               <p>This product is conducive to your child's imagination, allowing various kinds of combinations to be built.</p>
             </div>
           </div>
+          <br><br>
         </div>
-        <br><hr><br>
         <div id="car">
           <div class="row">
             <div class="col-sm-4">
@@ -387,9 +387,9 @@
               <p>Please be aware there may be choking hazards with small children. Toys have a few small parts that may break with excessive rough or improper use.</p>
             </div>
           </div>
+          <br><br>
         </div>
       </div>
-      <br><hr><br>
     </div>
       <div id="mailing-list">
         <div class="container">
@@ -444,4 +444,33 @@
       </div>
     <br><br><br>
   </body>
+  <script type="text/javascript">
+    function showPlane() {
+      hideAll();
+      document.getElementById('plane').style.display = 'block';
+    }
+    function showTrain() {
+      hideAll();
+      document.getElementById('train').style.display = 'block';
+    }
+    function showBoat() {
+      hideAll();
+      document.getElementById('boat').style.display = 'block';
+    }
+    function showBlock() {
+      hideAll();
+      document.getElementById('block').style.display = 'block';
+    }
+    function showCar() {
+      hideAll();
+      document.getElementById('car').style.display = 'block';
+    }
+    function hideAll() {
+      document.getElementById('plane').style.display = 'none';
+      document.getElementById('train').style.display = 'none';
+      document.getElementById('boat').style.display = 'none';
+      document.getElementById('block').style.display = 'none';
+      document.getElementById('car').style.display = 'none';
+    }
+  </script>
 </html>

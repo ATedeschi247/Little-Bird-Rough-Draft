@@ -1,6 +1,7 @@
 nav, nav li {
   background-color: #ff751a !important;
   font-size: 18px;
+  border-radius: 0px !important;
 }
 nav a {
   color: #331400 !important;
@@ -59,4 +60,10 @@ label {
 p, a {
   font-family: 'Glegoo';
   font-size: 18px;
+}
+#plane, #train, #boat, #block, #car {
+  display: none;
+}
+.btn-orange {
+  
 }
