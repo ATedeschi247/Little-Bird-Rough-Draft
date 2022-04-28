@@ -48,6 +48,9 @@
             <li><a href="#product-showcase">Product Showcase</a></li>
             <li><a href="#mailing-list">Mailing List Sign-Up</a></li>
           </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="btn btn-warning" id="cart"><span class="glyphicon glyphicon-shopping-cart"></span> Cart <span id="counter"></span></a></li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -71,6 +74,314 @@
             <img src="Wooden Horse Toys Logo\Little Bird Toys Logo (1).png" alt="Logo">
           </div>
         </div>
+        <br><br>
+        <div id="product-showcase">
+          <div id="product-buttons">
+            <div class="product text-center">
+              <button class="btn btn-warning" onclick="showPlane()">Wooden Toy Airplane</button>
+            </div>
+            <div class="product text-center">
+              <button class="btn btn-warning" onclick="showTrain()">Wooden Toy Train</button>
+            </div>
+            <div class="product text-center">
+              <button class="btn btn-warning" onclick="showBoat()">Wooden Toy Boat</button>
+            </div>
+            <div class="product text-center">
+              <button class="btn btn-warning" onclick="showBlock()">Wooden Block Toy Set</button>
+            </div>
+            <div class="product text-center">
+              <button class="btn btn-warning" onclick="showCar()">Wooden Toy Car</button>
+            </div>
+          </div>
+          <br><br>
+          <div id="plane">
+            <div class="row">
+              <div class="col-sm-4">
+                <div id="planeCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#planeCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#planeCarousel" data-slide-to="1"></li>
+                    <li data-target="#planeCarousel" data-slide-to="2"></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="Little Bird Toy Co Site Photos\plane3.jpg" alt="Wooden Plane">
+                    </div>
+
+                    <div class="item">
+                      <img src="Little Bird Toy Co Site Photos\plane2.jpg" alt="Chicago">
+                    </div>
+
+                    <div class="item">
+                      <img src="Little Bird Toy Co Site Photos\plane1.jpg" alt="New York">
+                    </div>
+                  </div>
+
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#planeCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#planeCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+
+              </div>
+              <div class="col-sm-8">
+                <h1>Wooden Toy Airplane</h1>
+                <p>Wooden Airplane Toy. Defying gravity and soaring in the sky is every boys dream. Keep him dreaming big with this classic wooden airplane made by us, here at Little Bird Toys in Bound Brook, NJ.</p>
+                <p>The airplane comes ready to fly with a kid-safe Natural Harvest Finish and a propeller that spins. </p>
+                <p>The dimensions of the Airplane is approximately 3.5"H x 7"L x 7"W.</p>
+                <p>The Airplane Comes with Real Rolling Wheels and Spinning Propellers.</p>
+                <p>Made out of Solid Wood - Built to Last for a Lifetime of Play.</p>
+                <p>Perfect Creative Gift for Toddlers.</p>
+                <p>Safe for Young Kids - Comes with a Non-Toxic Finish!</p>
+                <button class="btn btn-warning" onclick="increaseCart()"><span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart</button>
+              </div>
+            </div>
+            <br><br>
+          </div>
+          <div id="train">
+            <div class="row">
+              <div class="col-sm-4">
+                <div id="trainCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#trainCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#trainCarousel" data-slide-to="1"></li>
+                    <li data-target="#trainCarousel" data-slide-to="2"></li>
+                    <li data-target="#trainCarousel" data-slide-to="3"></li>
+                    <li data-target="#trainCarousel" data-slide-to="4"></li>
+                    <li data-target="#trainCarousel" data-slide-to="5"></li>
+                    <li data-target="#trainCarousel" data-slide-to="6"></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="Little Bird Toy Co Site Photos\train2.jpg" alt="Wooden Toy Train">
+                    </div>
+
+                    <div class="item">
+                      <img src="Little Bird Toy Co Site Photos\train1.jpg" alt="Chicago">
+                    </div>
+
+                    <div class="item">
+                      <img src="Little Bird Toy Co Site Photos\train3.jpg" alt="New York">
+                    </div>
+
+                    <div class="item">
+                      <img src="Little Bird Toy Co Site Photos\train4.jpg" alt="New York">
+                    </div>
+
+                    <div class="item">
+                      <img src="Little Bird Toy Co Site Photos\train5.jpg" alt="New York">
+                    </div>
+
+                    <div class="item">
+                      <img src="Little Bird Toy Co Site Photos\train6.jpg" alt="New York">
+                    </div>
+
+                    <div class="item">
+                      <img src="Little Bird Toy Co Site Photos\train7.jpg" alt="New York">
+                    </div>
+                  </div>
+
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#trainCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#trainCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+
+              </div>
+              <div class="col-sm-8">
+                <h1>Wooden Toy Train</h1>
+                <p>A beautiful handmade wooden train set - Engine and three interchangeable cars Handmade detailed artwork made of real beech wood.</p>
+                <p>Wonderful Christmas gift! Large size - 84 cm length, 11 height and 13 width Moving wheel mechanism.</p>
+                <p>Fully ecological product, only natural materials. High quality and durable.</p>
+                <p>Suitable for children from 3 years old Lots of fun guaranteed at any age!</p>
+                <p>This set can be painted using wood paint.</p>
+                <p>Theses toys are <a href="#">#timeless</a> and can be passed down for generations to come.</p>
+                <p>Please note that these toys have small parts that could break off if used inappropriately.</p>
+              </div>
+            </div>
+            <br><br>
+          </div>
+          <div id="boat">
+            <div class="row">
+              <div class="col-sm-4">
+                <div id="boatCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#boatCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#boatCarousel" data-slide-to="1"></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="Little Bird Toy Co Site Photos\boat2.jpg" alt="Wooden Boat">
+                    </div>
+
+                    <div class="item">
+                      <img src="Little Bird Toy Co Site Photos\boat1.jpg" alt="Chicago">
+                    </div>
+                  </div>
+
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#boatCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#boatCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+
+              </div>
+              <div class="col-sm-8">
+                <h1>Wooden Toy Boat</h1>
+                <p>On the coast of Maine, "Lobstah" boats like this one are a common sight.</p>
+                <p>This new wooden toy model really floats and makes a great bath toy.</p>
+                <p>The safe and simple design encourages a child to use his or her own imagination. Batteries not required!</p>
+                <p>Handcrafted in Maine with soft and rounded corners and edges to nourish a child's senses and to be safe for toddlers.</p>
+                <p>Built of solid Maine white pine and sturdy enough to withstand years of use before being passed down to the next generation.</p>
+                <p>Boat comes with two peg lobster- people.</p>
+                <p><b>SIZE:</b> 10.5"W x 3.5"H</p>
+                <p><b>MATERIAL:</b> Solid White Pine</p>
+              </div>
+            </div>
+            <br><br>
+          </div>
+          <div id="block">
+            <div class="row">
+              <div class="col-sm-4">
+                <div id="blockCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#blockCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#blockCarousel" data-slide-to="1"></li>
+                    <li data-target="#blockCarousel" data-slide-to="2"></li>
+                    <li data-target="#blockCarousel" data-slide-to="3"></li>
+                    <li data-target="#blockCarousel" data-slide-to="4"></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="Little Bird Toy Co Site Photos\block2.jpg" alt="Wooden Blocks">
+                    </div>
+
+                    <div class="item">
+                      <img src="Little Bird Toy Co Site Photos\block1.jpg" alt="Chicago">
+                    </div>
+
+                    <div class="item">
+                      <img src="Little Bird Toy Co Site Photos\block3.jpg" alt="New York">
+                    </div>
+
+                    <div class="item">
+                      <img src="Little Bird Toy Co Site Photos\block4.jpg" alt="New York">
+                    </div>
+
+                    <div class="item">
+                      <img src="Little Bird Toy Co Site Photos\block5.jpg" alt="New York">
+                    </div>
+                  </div>
+
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#blockCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#blockCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+
+              </div>
+              <div class="col-sm-8">
+                <h1>Wooden Block Toy Set</h1>
+                <p>High-Grade Quality: Hardwood blocks are sturdy, solid and safe for kids.</p>
+                <p>72 naturally finished and smooth-sanded hardwood blocks. Case size is 13” L x 12” W x 2” H.</p>
+                <p>Packaged in a handsome, wooden storage crate for easy storage.</p>
+                <p>Suitable for children ages 3 and up.</p>
+                <p>Highly durable set for indoor or outdoor use including: lawns, patios, living rooms, preschools, kindergartens & anywhere else.</p>
+                <p>Make your own dream castle anywhere.  Block play helps promote creativity, independent play, cooperative play, fine motor skills and hand-eye coordination.</p>
+                <p>When building, children must consider proportions, symmetry, size and more, which benefit early cultivation of concepts.</p>
+                <p>This product is conducive to your child's imagination, allowing various kinds of combinations to be built.</p>
+              </div>
+            </div>
+            <br><br>
+          </div>
+          <div id="car">
+            <div class="row">
+              <div class="col-sm-4">
+                <div id="carCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#carCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carCarousel" data-slide-to="1"></li>
+                    <li data-target="#carCarousel" data-slide-to="2"></li>
+                    <li data-target="#carCarousel" data-slide-to="3"></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="Little Bird Toy Co Site Photos\car3.jpg" alt="Wooden Car">
+                    </div>
+
+                    <div class="item">
+                      <img src="Little Bird Toy Co Site Photos\car1.jpg" alt="Chicago">
+                    </div>
+
+                    <div class="item">
+                      <img src="Little Bird Toy Co Site Photos\car2.jpg" alt="New York">
+                    </div>
+
+                    <div class="item">
+                      <img src="Little Bird Toy Co Site Photos\car4.jpg" alt="New York">
+                    </div>
+                  </div>
+
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#carCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#carCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+
+              </div>
+              <div class="col-sm-8">
+                <h1>Wooden Toy Car</h1>
+                <p>Beautifully handcrafted wooden car. One-of-a-kind - (the photos included for this item may not be the actual car that you will receive.</p>
+                <p>All cars are the same size and construction).</p>
+                <p>Great toy that will inspire imaginative and active play. This car will be in your family for generations to come - think heirloom or keepsake.</p>
+                <p>Handcrafted from a variety of domestic and exotic hardwoods including maple, oak, mahogany, cherry woods, etc., coated with clear lacquer to enhance and hold the natural wood color. All edges are rounded over and sanded for a silky smooth finish.</p>
+                <p>Please be aware there may be choking hazards with small children. Toys have a few small parts that may break with excessive rough or improper use.</p>
+              </div>
+            </div>
+            <br><br>
+          </div>
+        </div>
+
         <h2>Sustainability</h2>
         <p>Wood is an important part of who we are.  Early on we chose wood for its inherently durable qualities with the intention of making toys and furniture that could withstand the test of time – and stay out of the landfill.</p>
         <p>Our wooden toys are designed to withstand the wear of play and to be safely enjoyed from generation to generation.</p>
@@ -80,311 +391,6 @@
         <p>Visit us at our Toms River, NJ toy store!  All of our toys are made on-site at this location and you’ll find an old-fashioned toy store with cozy corners to play and explore – and time for us to get to know each other!</p>
       </div>
       <br><br>
-      <div id="product-showcase">
-        <div id="product-buttons">
-          <div class="product text-center">
-            <button class="btn btn-warning" onclick="showPlane()">Wooden Toy Airplane</button>
-          </div>
-          <div class="product text-center">
-            <button class="btn btn-warning" onclick="showTrain()">Wooden Toy Train</button>
-          </div>
-          <div class="product text-center">
-            <button class="btn btn-warning" onclick="showBoat()">Wooden Toy Boat</button>
-          </div>
-          <div class="product text-center">
-            <button class="btn btn-warning" onclick="showBlock()">Wooden Block Toy Set</button>
-          </div>
-          <div class="product text-center">
-            <button class="btn btn-warning" onclick="showCar()">Wooden Toy Car</button>
-          </div>
-        </div>
-        <br><br>
-        <div id="plane">
-          <div class="row">
-            <div class="col-sm-4">
-              <div id="planeCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                  <li data-target="#planeCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#planeCarousel" data-slide-to="1"></li>
-                  <li data-target="#planeCarousel" data-slide-to="2"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="Little Bird Toy Co Site Photos\plane3.jpg" alt="Wooden Plane">
-                  </div>
-
-                  <div class="item">
-                    <img src="Little Bird Toy Co Site Photos\plane2.jpg" alt="Chicago">
-                  </div>
-
-                  <div class="item">
-                    <img src="Little Bird Toy Co Site Photos\plane1.jpg" alt="New York">
-                  </div>
-                </div>
-
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#planeCarousel" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#planeCarousel" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-
-            </div>
-            <div class="col-sm-8">
-              <h1>Wooden Toy Airplane</h1>
-              <p>Wooden Airplane Toy. Defying gravity and soaring in the sky is every boys dream. Keep him dreaming big with this classic wooden airplane made by us, here at Little Bird Toys in Bound Brook, NJ.</p>
-              <p>The airplane comes ready to fly with a kid-safe Natural Harvest Finish and a propeller that spins. </p>
-              <p>The dimensions of the Airplane is approximately 3.5"H x 7"L x 7"W.</p>
-              <p>The Airplane Comes with Real Rolling Wheels and Spinning Propellers.</p>
-              <p>Made out of Solid Wood - Built to Last for a Lifetime of Play.</p>
-              <p>Perfect Creative Gift for Toddlers.</p>
-              <p>Safe for Young Kids - Comes with a Non-Toxic Finish!</p>
-            </div>
-          </div>
-          <br><br>
-        </div>
-        <div id="train">
-          <div class="row">
-            <div class="col-sm-4">
-              <div id="trainCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                  <li data-target="#trainCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#trainCarousel" data-slide-to="1"></li>
-                  <li data-target="#trainCarousel" data-slide-to="2"></li>
-                  <li data-target="#trainCarousel" data-slide-to="3"></li>
-                  <li data-target="#trainCarousel" data-slide-to="4"></li>
-                  <li data-target="#trainCarousel" data-slide-to="5"></li>
-                  <li data-target="#trainCarousel" data-slide-to="6"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="Little Bird Toy Co Site Photos\train2.jpg" alt="Wooden Toy Train">
-                  </div>
-
-                  <div class="item">
-                    <img src="Little Bird Toy Co Site Photos\train1.jpg" alt="Chicago">
-                  </div>
-
-                  <div class="item">
-                    <img src="Little Bird Toy Co Site Photos\train3.jpg" alt="New York">
-                  </div>
-
-                  <div class="item">
-                    <img src="Little Bird Toy Co Site Photos\train4.jpg" alt="New York">
-                  </div>
-
-                  <div class="item">
-                    <img src="Little Bird Toy Co Site Photos\train5.jpg" alt="New York">
-                  </div>
-
-                  <div class="item">
-                    <img src="Little Bird Toy Co Site Photos\train6.jpg" alt="New York">
-                  </div>
-
-                  <div class="item">
-                    <img src="Little Bird Toy Co Site Photos\train7.jpg" alt="New York">
-                  </div>
-                </div>
-
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#trainCarousel" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#trainCarousel" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-
-            </div>
-            <div class="col-sm-8">
-              <h1>Wooden Toy Train</h1>
-              <p>A beautiful handmade wooden train set - Engine and three interchangeable cars Handmade detailed artwork made of real beech wood.</p>
-              <p>Wonderful Christmas gift! Large size - 84 cm length, 11 height and 13 width Moving wheel mechanism.</p>
-              <p>Fully ecological product, only natural materials. High quality and durable.</p>
-              <p>Suitable for children from 3 years old Lots of fun guaranteed at any age!</p>
-              <p>This set can be painted using wood paint.</p>
-              <p>Theses toys are <a href="#">#timeless</a> and can be passed down for generations to come.</p>
-              <p>Please note that these toys have small parts that could break off if used inappropriately.</p>
-            </div>
-          </div>
-          <br><br>
-        </div>
-        <div id="boat">
-          <div class="row">
-            <div class="col-sm-4">
-              <div id="boatCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                  <li data-target="#boatCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#boatCarousel" data-slide-to="1"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="Little Bird Toy Co Site Photos\boat2.jpg" alt="Wooden Boat">
-                  </div>
-
-                  <div class="item">
-                    <img src="Little Bird Toy Co Site Photos\boat1.jpg" alt="Chicago">
-                  </div>
-                </div>
-
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#boatCarousel" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#boatCarousel" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-
-            </div>
-            <div class="col-sm-8">
-              <h1>Wooden Toy Boat</h1>
-              <p>On the coast of Maine, "Lobstah" boats like this one are a common sight.</p>
-              <p>This new wooden toy model really floats and makes a great bath toy.</p>
-              <p>The safe and simple design encourages a child to use his or her own imagination. Batteries not required!</p>
-              <p>Handcrafted in Maine with soft and rounded corners and edges to nourish a child's senses and to be safe for toddlers.</p>
-              <p>Built of solid Maine white pine and sturdy enough to withstand years of use before being passed down to the next generation.</p>
-              <p>Boat comes with two peg lobster- people.</p>
-              <p><b>SIZE:</b> 10.5"W x 3.5"H</p>
-              <p><b>MATERIAL:</b> Solid White Pine</p>
-            </div>
-          </div>
-          <br><br>
-        </div>
-        <div id="block">
-          <div class="row">
-            <div class="col-sm-4">
-              <div id="blockCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                  <li data-target="#blockCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#blockCarousel" data-slide-to="1"></li>
-                  <li data-target="#blockCarousel" data-slide-to="2"></li>
-                  <li data-target="#blockCarousel" data-slide-to="3"></li>
-                  <li data-target="#blockCarousel" data-slide-to="4"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="Little Bird Toy Co Site Photos\block2.jpg" alt="Wooden Blocks">
-                  </div>
-
-                  <div class="item">
-                    <img src="Little Bird Toy Co Site Photos\block1.jpg" alt="Chicago">
-                  </div>
-
-                  <div class="item">
-                    <img src="Little Bird Toy Co Site Photos\block3.jpg" alt="New York">
-                  </div>
-
-                  <div class="item">
-                    <img src="Little Bird Toy Co Site Photos\block4.jpg" alt="New York">
-                  </div>
-
-                  <div class="item">
-                    <img src="Little Bird Toy Co Site Photos\block5.jpg" alt="New York">
-                  </div>
-                </div>
-
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#blockCarousel" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#blockCarousel" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-
-            </div>
-            <div class="col-sm-8">
-              <h1>Wooden Block Toy Set</h1>
-              <p>High-Grade Quality: Hardwood blocks are sturdy, solid and safe for kids.</p>
-              <p>72 naturally finished and smooth-sanded hardwood blocks. Case size is 13” L x 12” W x 2” H.</p>
-              <p>Packaged in a handsome, wooden storage crate for easy storage.</p>
-              <p>Suitable for children ages 3 and up.</p>
-              <p>Highly durable set for indoor or outdoor use including: lawns, patios, living rooms, preschools, kindergartens & anywhere else.</p>
-              <p>Make your own dream castle anywhere.  Block play helps promote creativity, independent play, cooperative play, fine motor skills and hand-eye coordination.</p>
-              <p>When building, children must consider proportions, symmetry, size and more, which benefit early cultivation of concepts.</p>
-              <p>This product is conducive to your child's imagination, allowing various kinds of combinations to be built.</p>
-            </div>
-          </div>
-          <br><br>
-        </div>
-        <div id="car">
-          <div class="row">
-            <div class="col-sm-4">
-              <div id="carCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                  <li data-target="#carCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#carCarousel" data-slide-to="1"></li>
-                  <li data-target="#carCarousel" data-slide-to="2"></li>
-                  <li data-target="#carCarousel" data-slide-to="3"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="Little Bird Toy Co Site Photos\car3.jpg" alt="Wooden Car">
-                  </div>
-
-                  <div class="item">
-                    <img src="Little Bird Toy Co Site Photos\car1.jpg" alt="Chicago">
-                  </div>
-
-                  <div class="item">
-                    <img src="Little Bird Toy Co Site Photos\car2.jpg" alt="New York">
-                  </div>
-
-                  <div class="item">
-                    <img src="Little Bird Toy Co Site Photos\car4.jpg" alt="New York">
-                  </div>
-                </div>
-
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#carCarousel" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#carCarousel" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-
-            </div>
-            <div class="col-sm-8">
-              <h1>Wooden Toy Car</h1>
-              <p>Beautifully handcrafted wooden car. One-of-a-kind - (the photos included for this item may not be the actual car that you will receive.</p>
-              <p>All cars are the same size and construction).</p>
-              <p>Great toy that will inspire imaginative and active play. This car will be in your family for generations to come - think heirloom or keepsake.</p>
-              <p>Handcrafted from a variety of domestic and exotic hardwoods including maple, oak, mahogany, cherry woods, etc., coated with clear lacquer to enhance and hold the natural wood color. All edges are rounded over and sanded for a silky smooth finish.</p>
-              <p>Please be aware there may be choking hazards with small children. Toys have a few small parts that may break with excessive rough or improper use.</p>
-            </div>
-          </div>
-          <br><br>
-        </div>
-      </div>
     </div>
       <div id="mailing-list">
         <div class="container">
@@ -440,6 +446,11 @@
     <br><br><br>
   </body>
   <script type="text/javascript">
+    var cartCounter = 0;
+    function increaseCart() {
+      cartCounter++;
+      document.getElementById('counter').innerHTML = cartCounter;
+    }
     function showPlane() {
       hideAll();
       document.getElementById('plane').style.display = 'block';

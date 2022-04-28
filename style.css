@@ -78,3 +78,7 @@ p, a {
   background-color: #e36402 !important;
   border-color: #ca5902 !important;
 }
+#cart {
+  border-color: #fff !important;
+  color: white !important;
+}
