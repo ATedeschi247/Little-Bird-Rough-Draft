@@ -19,6 +19,9 @@ nav img {
   height: 100%;
   max-height: 600%;
 }
+nav div.container-fluid {
+  padding-right: 0px;
+}
 /* end of navbar stuff */
 a.navbar-brand {
   padding: 0px;
@@ -79,6 +82,16 @@ p, a {
   border-color: #ca5902 !important;
 }
 #cart {
-  border-color: #fff !important;
-  color: white !important;
+  border-color: white;
+  border-width: 3px;
+  margin-bottom: -2px;
+}
+span#counter {
+  background-color: black;
+  border-radius: 15px;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
